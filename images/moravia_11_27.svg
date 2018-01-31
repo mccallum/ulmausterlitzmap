@@ -1,0 +1,231 @@
+<svg data-name="Troop Movements by Day 10/16 Revisions" xmlns="http://www.w3.org/2000/svg" width="1440" height="910" viewBox="0 0 1440 910">
+  <title>
+    moravia
+  </title>
+  <g data-name="11/27">
+    <path d="M1139.9 219.3c4.3-6.6 11.6-17.7 11.6-18.1s5.7-13.9 8.1-22.3" fill="none" stroke="#ed2939" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path fill="#ed2939" d="M1134.7 230.9l14.2-13.1-8.4.7-4.8-6.9-1 19.3"/>
+    <path d="M1160.4 165.5c5.6-8.6 13.9-18.6 16.2-26.6.3 0 .4.1.4.3" fill="none" stroke="#ed2939" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path fill="#ed2939" d="M1157.7 177.9l11.7-15.4-8.2 2.2-5.9-6 2.4 19.2"/>
+    <g data-name="Charles">
+      <path fill="#fff" opacity=".5" d="M969.8 863.1h113v43.26h-113z"/>
+      <path fill="none" stroke="#999" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M1071.3 870.8l-.6 18.1"/>
+      <path fill="#999" d="M1070.3 901.6l-6.8-18.1 7.2 4.4 7.5-4-7.9 17.7"/>
+    </g>
+    <g data-name="11/27" fill="#999">
+      <g data-name="Napoleon">
+        <path d="M1072.9 239.3a4.5 4.5 0 0 1 0 9 4.5 4.5 0 0 1 0-9z" stroke="#999"/>
+        <text transform="translate(1042.5 239.5)" font-size="12" font-family="DroidSans, Droid Sans" style="isolation:isolate">
+          Brunn
+        </text>
+      </g>
+      <g data-name="Murat - Cavalry">
+        <path d="M1115.1 249.5a4.5 4.5 0 0 1 4.5 4.5 4.5 4.5 0 0 1-9 0 4.5 4.5 0 0 1 4.5-4.5z" stroke="#999"/>
+        <text transform="translate(1118.8 249.9)" font-size="12" font-family="DroidSans, Droid Sans" style="isolation:isolate">
+          Austerlitz
+        </text>
+      </g>
+      <g data-name="Lannes">
+        <path d="M1115.1 249.5a4.5 4.5 0 0 1 4.5 4.5 4.5 4.5 0 0 1-9 0 4.5 4.5 0 0 1 4.5-4.5z" stroke="#999"/>
+        <text transform="translate(1118.8 249.9)" font-size="12" font-family="DroidSans, Droid Sans" style="isolation:isolate">
+          Austerlitz
+        </text>
+      </g>
+      <g data-name="Soult">
+        <path d="M1115.1 249.5a4.5 4.5 0 0 1 4.5 4.5 4.5 4.5 0 0 1-9 0 4.5 4.5 0 0 1 4.5-4.5z" stroke="#999"/>
+        <text transform="translate(1118.8 249.9)" font-size="12" font-family="DroidSans, Droid Sans" style="isolation:isolate">
+          Austerlitz
+        </text>
+      </g>
+      <g data-name="Marmont">
+        <path d="M885.1 749.2a4.5 4.5 0 0 1 4.5 4.5 4.5 4.5 0 0 1-9 0 4.5 4.5 0 0 1 4.5-4.5z" stroke="#999"/>
+        <text transform="translate(887.7 749.4)" font-size="12" font-family="DroidSans, Droid Sans" style="isolation:isolate">
+          G<tspan x="8.3" y="0" letter-spacing="-.01em">r</tspan><tspan x="12.9" y="0">az</tspan>
+        </text>
+      </g>
+    </g>
+    <g data-name="Commanders">
+      <g data-name="Jellacic">
+        <text transform="translate(27.3 706.8)" font-size="9" fill="#ed2939" font-family="DroidSans, Droid Sans">
+          XX
+        </text>
+        <path fill="#fff" stroke="#ed2939" stroke-miterlimit="10" stroke-width=".75" d="M17.2 708.2h30v15h-30z"/>
+        <text transform="translate(52.5 720.1)" font-size="12" fill="#ed2939" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Jellachich
+        </text>
+        <path fill="none" d="M17.2 723.2l30-15"/>
+      </g>
+      <g data-name="John">
+        <text transform="translate(695.1 839.7)" font-size="9" fill="#ed2939" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#ed2939" stroke-miterlimit="10" stroke-width=".75" d="M687.5 841.1h30v15h-30z"/>
+        <text transform="translate(723.8 853)" font-size="12" fill="#ed2939" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          John
+        </text>
+        <path fill="none" d="M687.5 856.1l30-15"/>
+      </g>
+      <g data-name="Kienmayer">
+        <text transform="translate(1177.2 231.3)" font-size="9" fill="#ed2939" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#ed2939" stroke-miterlimit="10" stroke-width=".75" d="M1169.6 232.7h30v15h-30z"/>
+        <text transform="translate(1204.8 244.6)" font-size="12" fill="#ed2939" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Kienmayer
+        </text>
+        <path fill="none" d="M1169.6 247.7l30-15"/>
+      </g>
+      <g data-name="Charles">
+        <text transform="translate(983.6 878.8)" font-size="9" fill="#ed2939" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#ed2939" stroke-miterlimit="10" stroke-width=".75" d="M976 880.2h30v15h-30z"/>
+        <text transform="translate(1011.2 892.1)" font-size="12" fill="#ed2939" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Charles
+        </text>
+        <path fill="none" d="M976 895.2l30-15"/>
+      </g>
+      <g data-name="Buxhöwden">
+        <text transform="translate(1186.3 130.9)" font-size="9" fill="#ed2939" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#ed2939" stroke-miterlimit="10" stroke-width=".75" d="M1178.7 132.3h30v15h-30z"/>
+        <text transform="translate(1213.9 144.2)" font-size="12" fill="#ed2939" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Buxhöwden
+        </text>
+        <path fill="none" d="M1178.7 147.3l30-15"/>
+      </g>
+      <g data-name="Kutuzov">
+        <text transform="translate(1172.3 165.4)" font-size="9" fill="#ed2939" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#ed2939" stroke-miterlimit="10" stroke-width=".75" d="M1164.7 166.8h30v15h-30z"/>
+        <text transform="translate(1199.9 178.7)" font-size="12" fill="#ed2939" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Kutu<tspan x="27.6" y="0" letter-spacing="-.01em">z</tspan><tspan x="33" y="0">ov</tspan>
+        </text>
+        <path fill="none" d="M1164.7 181.8l30-15"/>
+      </g>
+      <g data-name="Mortier">
+        <text transform="translate(1038.2 507.1)" font-size="9" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#0072bb" stroke-miterlimit="10" stroke-width=".75" d="M1030.5 508.5h30v15h-30z"/>
+        <text transform="translate(981.5 520.4)" font-size="12" fill="#0072bb" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Mortier
+        </text>
+        <path fill="none" d="M1030.5 523.5l30-15"/>
+      </g>
+      <g data-name="Napoleon">
+        <text transform="translate(1047.8 207.6)" font-size="9" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          XXXX
+        </text>
+        <path fill="#fff" stroke="#0072bb" stroke-miterlimit="10" stroke-width=".75" d="M1042.7 209h30v15h-30z"/>
+        <text transform="translate(1077.9 220.9)" font-size="12" fill="#0072bb" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Napoleon
+        </text>
+        <path fill="none" d="M1042.7 224l30-15"/>
+      </g>
+      <g data-name="Murat">
+        <text transform="translate(1104.8 306.7)" font-size="9" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#0072bb" stroke-miterlimit="10" stroke-width=".75" d="M1097.1 308.1h30v15h-30z"/>
+        <text transform="translate(1132.4 320)" font-size="12" fill="#0072bb" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Mu<tspan x="18.5" y="0" letter-spacing="-.01em">r</tspan><tspan x="23.6" y="0">at</tspan>
+        </text>
+        <path fill="none" stroke="#0072bb" stroke-miterlimit="10" stroke-width=".75" d="M1097.1 323.1l30-15"/>
+      </g>
+      <g data-name="Augereau">
+        <text transform="translate(120.5 461.5)" font-size="9" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#0072bb" stroke-miterlimit="10" stroke-width=".75" d="M112.9 462.9h30v15h-30z"/>
+        <text transform="translate(119.2 475.2)" font-size="13.5" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          VII
+        </text>
+        <text transform="translate(52.5 474.8)" font-size="12" fill="#0072bb" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Augereau
+        </text>
+        <path fill="none" d="M112.9 477.9l30-15"/>
+      </g>
+      <g data-name="Ney">
+        <text transform="translate(256.3 726.1)" font-size="9" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#0072bb" stroke-miterlimit="10" stroke-width=".75" d="M248.7 727.5h30v15h-30z"/>
+        <text transform="translate(257.4 739.8)" font-size="13.5" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          VI
+        </text>
+        <text transform="translate(221 739.4)" font-size="12" fill="#0072bb" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Ney
+        </text>
+        <path fill="none" d="M248.7 742.5l30-15"/>
+      </g>
+      <g data-name="Lannes">
+        <text transform="translate(1096.5 280.4)" font-size="9" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#0072bb" stroke-miterlimit="10" stroke-width=".75" d="M1088.8 281.8h30v15h-30z"/>
+        <text transform="translate(1124.1 293.7)" font-size="12" fill="#0072bb" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Lannes
+        </text>
+        <text transform="translate(1099.8 294.1)" font-size="13.5" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          V
+        </text>
+        <path fill="none" d="M1088.8 296.8l30-15"/>
+      </g>
+      <g data-name="Soult">
+        <text transform="translate(1082.5 253.5)" font-size="9" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#0072bb" stroke-miterlimit="10" stroke-width=".75" d="M1074.9 254.9h30v15h-30z"/>
+        <text transform="translate(1083.5 267.2)" font-size="13.5" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          IV
+        </text>
+        <text transform="translate(1110.1 266.8)" font-size="12" fill="#0072bb" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Soult
+        </text>
+        <path fill="none" d="M1074.9 269.9l30-15"/>
+      </g>
+      <g data-name="Davout">
+        <text transform="translate(1020.8 479.8)" font-size="9" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#0072bb" stroke-miterlimit="10" stroke-width=".75" d="M1013.2 481.2h30v15h-30z"/>
+        <text transform="translate(1048.4 493.1)" font-size="12" fill="#0072bb" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Davout
+        </text>
+        <text transform="translate(1021.1 493.5)" font-size="13.5" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          III
+        </text>
+        <path fill="none" d="M1013.2 496.2l30-15"/>
+      </g>
+      <g data-name="Marmont">
+        <text transform="translate(852.8 695.8)" font-size="9" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#0072bb" stroke-miterlimit="10" stroke-width=".75" d="M845.2 697.2h30v15h-30z"/>
+        <text transform="translate(855.3 709.5)" font-size="13.5" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          II
+        </text>
+        <text transform="translate(880.4 709.1)" font-size="12" fill="#0072bb" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Marmont
+        </text>
+        <path fill="none" d="M845.2 712.2l30-15"/>
+      </g>
+      <g data-name="Bernadotte">
+        <text transform="translate(909.2 188.9)" font-size="9" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          XXX
+        </text>
+        <path fill="#fff" stroke="#0072bb" stroke-miterlimit="10" stroke-width=".75" d="M901.5 190.3h30v15h-30z"/>
+        <text transform="translate(914 202.7)" font-size="13.5" fill="#0072bb" font-family="DroidSans, Droid Sans">
+          I
+        </text>
+        <text transform="translate(936.8 202.2)" font-size="12" fill="#0072bb" font-family="DroidSans-Bold, Droid Sans" font-weight="700">
+          Bernado<tspan x="48.8" y="0" letter-spacing=".01em">t</tspan><tspan x="53.9" y="0">te</tspan>
+        </text>
+        <path fill="none" d="M901.5 205.3l30-15"/>
+      </g>
+    </g>
+  </g>
+</svg>

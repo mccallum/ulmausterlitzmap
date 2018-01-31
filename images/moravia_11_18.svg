@@ -1,0 +1,184 @@
+<svg id="Troop_Movements_by_Day_10_16_Revisions" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 910">
+  <style>
+    .st0{fill:#999999;stroke:#999999;} .st1{fill:#999999;} .st2{font-family:&apos;DroidSans&apos;;} .st3{font-size:12px;} .st4{opacity:0.5;fill:#FFFFFF;enable-background:new ;} .st5{fill:none;stroke:#999999;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;} .st6{fill:#0072BB;stroke:#0072BB;} .st7{fill:#ED2939;} .st8{font-size:9px;} .st9{fill:#FFFFFF;stroke:#ED2939;stroke-width:0.75;stroke-miterlimit:10;} .st10{font-family:&apos;DroidSans-Bold&apos;;} .st11{fill:none;} .st12{fill:#0072BB;} .st13{fill:#FFFFFF;stroke:#0072BB;stroke-width:0.75;stroke-miterlimit:10;} .st14{fill:none;stroke:#0072BB;stroke-width:0.75;stroke-miterlimit:10;} .st15{font-size:13.5px;}
+  </style>
+  <path class="st0" d="M1134.2 219c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"/>
+  <text transform="translate(1139.2 219.3)" class="st1 st2 st3">
+    Vyskov
+  </text>
+  <path class="st0" d="M1071.9 240.4c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"/>
+  <text transform="translate(1042.5 239.5)" class="st1 st2 st3">
+    Brunn
+  </text>
+  <path class="st4" d="M969.8 863.1h113v43.3h-113z"/>
+  <path class="st5" d="M1071.3 870.8l-.6 18.1"/>
+  <path class="st1" d="M1070.3 901.6l-6.8-18.1 7.2 4.4 7.5-4z"/>
+  <path class="st6" d="M123.9 463.2c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"/>
+  <text transform="translate(27.3 706.8)" class="st7 st2 st8">
+    XX
+  </text>
+  <path class="st9" d="M17.2 708.2h30v15h-30z"/>
+  <text transform="translate(52.5 720.1)" class="st7 st10 st3">
+    Jellachich
+  </text>
+  <path class="st11" d="M17.2 723.2l30-15"/>
+  <text transform="translate(524.5 823.1)" class="st7 st2 st8">
+    XXX
+  </text>
+  <path class="st9" d="M516.9 824.5h30v15h-30z"/>
+  <text transform="translate(553.1 836.4)" class="st7 st10 st3">
+    John
+  </text>
+  <path class="st11" d="M516.9 839.5l30-15"/>
+  <text transform="translate(1147.2 271.3)" class="st7 st2 st8">
+    XXX
+  </text>
+  <path class="st9" d="M1139.6 272.7h30v15h-30z"/>
+  <text transform="translate(1174.8 284.6)" class="st7 st10 st3">
+    Kienmayer
+  </text>
+  <path class="st11" d="M1139.6 287.7l30-15"/>
+  <text transform="translate(983.6 878.8)" class="st7 st2 st8">
+    XXX
+  </text>
+  <path class="st9" d="M976 880.2h30v15h-30z"/>
+  <text transform="translate(1011.2 892.1)" class="st7 st10 st3">
+    Charles
+  </text>
+  <path class="st11" d="M976 895.2l30-15"/>
+  <text transform="translate(1089.3 187.1)" class="st7 st2 st8">
+    XXX
+  </text>
+  <path class="st9" d="M1081.7 188.5h30v15h-30z"/>
+  <text transform="translate(1116.9 200.4)" class="st7 st10 st3">
+    Buxhöwden
+  </text>
+  <path class="st11" d="M1081.7 203.5l30-15"/>
+  <text transform="translate(1050.3 210.9)" class="st7 st2 st8">
+    XXX
+  </text>
+  <path class="st9" d="M1042.7 212.3h30v15h-30z"/>
+  <text transform="translate(1077.9 224.2)" class="st7 st10 st3">
+    Kutu
+  </text>
+  <text transform="translate(1105.5 224.2)" class="st7 st10 st3">
+    z
+  </text>
+  <text transform="translate(1110.9 224.2)" class="st7 st10 st3">
+    ov
+  </text>
+  <path class="st11" d="M1042.7 227.3l30-15"/>
+  <text transform="translate(906 423.3)" class="st12 st2 st8">
+    XXX
+  </text>
+  <path class="st13" d="M898.4 424.7h30v15h-30z"/>
+  <text transform="translate(849.3 436.6)" class="st12 st10 st3">
+    Mortier
+  </text>
+  <path class="st11" d="M898.4 439.7l30-15"/>
+  <text transform="translate(976.2 342.8)" class="st12 st2 st8">
+    XXXX
+  </text>
+  <path class="st13" d="M971 344.2h30v15h-30z"/>
+  <text transform="translate(1006.3 356.1)" class="st12 st10 st3">
+    Napoleon
+  </text>
+  <path class="st11" d="M971 359.2l30-15"/>
+  <text transform="translate(1014.7 322.3)" class="st12 st2 st8">
+    XXX
+  </text>
+  <path class="st13" d="M1007.1 323.7h30v15h-30z"/>
+  <text transform="translate(1042.3 335.6)" class="st12 st10 st3">
+    Mu
+  </text>
+  <text transform="translate(1060.8 335.6)" class="st12 st10 st3">
+    r
+  </text>
+  <text transform="translate(1065.9 335.6)" class="st12 st10 st3">
+    at
+  </text>
+  <path class="st14" d="M1007.1 338.7l30-15"/>
+  <text transform="translate(120.5 461.5)" class="st12 st2 st8">
+    XXX
+  </text>
+  <path class="st13" d="M112.9 462.9h30v15h-30z"/>
+  <text transform="translate(119.2 475.2)" class="st12 st2 st15">
+    VII
+  </text>
+  <text transform="translate(52.5 474.8)" class="st12 st10 st3">
+    Augereau
+  </text>
+  <path class="st11" d="M112.9 477.9l30-15"/>
+  <text transform="translate(256.3 726.1)" class="st12 st2 st8">
+    XXX
+  </text>
+  <path class="st13" d="M248.7 727.5h30v15h-30z"/>
+  <text transform="translate(257.4 739.8)" class="st12 st2 st15">
+    VI
+  </text>
+  <text transform="translate(221 739.4)" class="st12 st10 st3">
+    Ney
+  </text>
+  <path class="st11" d="M248.7 742.5l30-15"/>
+  <text transform="translate(985.4 374)" class="st12 st2 st8">
+    XXX
+  </text>
+  <path class="st13" d="M977.8 375.4h30v15h-30z"/>
+  <text transform="translate(1013.1 387.3)" class="st12 st10 st3">
+    Lannes
+  </text>
+  <text transform="translate(988.7 387.7)" class="st12 st2 st15">
+    V
+  </text>
+  <path class="st11" d="M977.8 390.4l30-15"/>
+  <text transform="translate(982.9 294.9)" class="st12 st2 st8">
+    XXX
+  </text>
+  <path class="st13" d="M975.3 296.3h30v15h-30z"/>
+  <text transform="translate(983.9 308.7)" class="st12 st2 st15">
+    IV
+  </text>
+  <text transform="translate(1010.5 308.2)" class="st12 st10 st3">
+    Soult
+  </text>
+  <path class="st11" d="M975.3 311.3l30-15"/>
+  <text transform="translate(1026 479.8)" class="st12 st2 st8">
+    XXX
+  </text>
+  <path class="st13" d="M1018.3 481.2h30v15h-30z"/>
+  <text transform="translate(1053.6 493.1)" class="st12 st10 st3">
+    Davout
+  </text>
+  <text transform="translate(1026.2 493.5)" class="st12 st2 st15">
+    III
+  </text>
+  <path class="st11" d="M1018.3 496.2l30-15"/>
+  <text transform="translate(816.5 673.1)" class="st12 st2 st8">
+    XXX
+  </text>
+  <path class="st13" d="M808.9 674.5h30v15h-30z"/>
+  <text transform="translate(819.1 686.8)" class="st12 st2 st15">
+    II
+  </text>
+  <text transform="translate(844.1 686.4)" class="st12 st10 st3">
+    Marmont
+  </text>
+  <path class="st11" d="M808.9 689.5l30-15"/>
+  <text transform="translate(941.5 390.3)" class="st12 st2 st8">
+    XXX
+  </text>
+  <path class="st13" d="M933.9 391.7h30v15h-30z"/>
+  <text transform="translate(946.3 404)" class="st12 st2 st15">
+    I
+  </text>
+  <text transform="translate(969.1 403.6)" class="st12 st10 st3">
+    Bernado
+  </text>
+  <text transform="translate(1017.9 403.6)" class="st12 st10 st3">
+    t
+  </text>
+  <text transform="translate(1023 403.6)" class="st12 st10 st3">
+    te
+  </text>
+  <path class="st11" d="M933.9 406.7l30-15"/>
+</svg>

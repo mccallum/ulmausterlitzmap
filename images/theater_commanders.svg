@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg version="1.1" baseProfile="tiny" id="Commanders"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1440px" height="910px"
+ viewBox="0 0 1440 910" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+text {
+	font-family: 'Droid Sans',DroidSans,Verdana,sans-serif;
+	stroke-miterlimit: 10;
+}
+.commander, .ident {
+	font-size: 17px;
+}
+.size {
+	font-size: 13px;
+}
+]]>
+</style>
+
+<rect x="996.934" y="376.98" fill="none" stroke="#003A9E" width="42" height="21"/>
+<rect x="998.836" y="364.303" fill="none" width="33.474" height="13.082"/>
+<text transform="matrix(1 0 0 1 1005.2139 373.0439)" fill="#003A9E" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 1039.0967 391.2588)" fill="#003A9E" class="commander">Bavarians</text>
+<text transform="matrix(1 0 0 1 1047.6309 404.3408)" fill="#003A9E" class="size">(20,000)</text>
+
+<rect x="703.051" y="125.283" fill="none" stroke="#2C74DD" width="42" height="21"/>
+<rect x="704.953" y="112.603" fill="none" width="33.474" height="13.081"/>
+
+<text transform="matrix(1 0 0 1 711.3311 121.3447)" fill="#2C74DD" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 719.3633 140.3076)" fill="#2C74DD" class="ident">I</text>
+<text transform="matrix(1 0 0 1 748.293 139.5605)" fill="#2C74DD" class="commander">Bernadotte</text>
+<text transform="matrix(1 0 0 1 764.4551 151.9453)" fill="#2C74DD" class="size">(18,000)</text>
+
+<rect x="355.832" y="159.136" fill="none" stroke="#003A9E" width="42" height="21"/>
+<rect x="357.734" y="146.455" fill="none" width="33.473" height="13.082"/>
+
+<text transform="matrix(1 0 0 1 364.1104 155.1982)" fill="#003A9E" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 369.8193 174.5508)" fill="#003A9E" class="ident">II</text>
+<text transform="matrix(1 0 0 1 401.0732 173.4131)" fill="#003A9E" class="commander">Marmont</text>
+<text transform="matrix(1 0 0 1 407.4053 185.8008)" fill="#003A9E" class="size">(21,000)</text>
+
+<rect x="361.275" y="306.416" fill="none" stroke="#003A9E" width="42" height="21"/>
+<rect x="363.178" y="293.736" fill="none" width="33.474" height="13.081"/>
+<text transform="matrix(1 0 0 1 369.5547 302.4785)" fill="#003A9E" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 406.5176 320.6934)" fill="#003A9E" class="commander">Davout</text>
+<text transform="matrix(1 0 0 1 373.4678 321.9082)" fill="#003A9E" class="ident">III</text>
+<text transform="matrix(1 0 0 1 407.4053 336.625)" fill="#003A9E" class="size">(27,000)</text>
+
+<rect x="360.093" y="374.679" fill="none" stroke="#00235E" width="42" height="21"/>
+<rect x="361.995" y="362.001" fill="none" width="33.474" height="13.08"/>
+
+<text transform="matrix(1 0 0 1 368.3701 370.7373)" fill="#00235E" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 371.167 389.6436)" fill="#00235E" class="ident">IV</text>
+<text transform="matrix(1 0 0 1 408.4121 388.9561)" fill="#00235E" class="commander">Soult</text>
+<text transform="matrix(1 0 0 1 404.3301 401.2617)" fill="#00235E" class="size">(41,000)</text>
+
+<rect x="245.99" y="553.281" fill="none" stroke="#8200AD" width="42" height="21"/>
+<rect x="241.736" y="540.603" fill="none" width="47.44" height="13.082"/>
+<text transform="matrix(1 0 0 1 251.6729 549.3428)" fill="#8200AD" class="size">XXXX</text>
+<text transform="matrix(1 0 0 1 291.2344 567.5576)" fill="#8200AD" class="ident">Napoleon</text>
+<text transform="matrix(1 0 0 1 302.8047 579.7852)" fill="#8200AD" class="size">(200,000)</text>
+
+<rect x="390.16" y="615.216" fill="none" stroke="#2C74DD" width="42" height="21"/>
+<rect x="392.063" y="602.534" fill="none" width="33.473" height="13.082"/>
+<text transform="matrix(1 0 0 1 398.4395 611.2773)" fill="#2C74DD" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 403.5615 630.5742)" fill="#2C74DD" class="ident">V</text>
+<text transform="matrix(1 0 0 1 435.4023 629.4951)" fill="#2C74DD" class="commander">Lannes</text>
+<text transform="matrix(1 0 0 1 438.1865 641.3457)" fill="#2C74DD" class="size">(18,000)</text>
+
+<rect x="284.797" y="609.577" fill="none" stroke="#003A9E" width="42" height="21"/>
+<rect x="286.7" y="596.896" fill="none" width="33.473" height="13.082"/>
+<text transform="matrix(1 0 0 1 293.0752 605.6377)" fill="#003A9E" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 330.041 623.8545)" fill="#003A9E" class="commander">Murat</text>
+<line fill="none" stroke="#003A9E" x1="284.797" y1="628.748" x2="323.14" y2="609.577"/>
+<text transform="matrix(1 0 0 1 327.3799 638.2676)" fill="#003A9E" class="size">(24,000)</text>
+
+<rect x="305.113" y="503.131" fill="none" stroke="#003A9E" width="42" height="21"/>
+<rect x="307.017" y="490.452" fill="none" width="33.474" height="13.082"/>
+<text transform="matrix(1 0 0 1 313.3916 499.1914)" fill="#003A9E" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 316.1885 518.791)" fill="#003A9E" class="ident">VI</text>
+<text transform="matrix(1 0 0 1 353.4336 517.4102)" fill="#003A9E" class="commander">Ney</text>
+<text transform="matrix(1 0 0 1 345.8457 530.5381)" fill="#003A9E" class="size">(24,000)</text>
+
+<rect x="594.554" y="594.92" fill="none" stroke="#750C02" width="42" height="21"/>
+<rect x="589.868" y="580.954" fill="none" width="52.257" height="14.411"/>
+<text transform="matrix(1 0 0 1 600.8145 590.582)" fill="#750C02" class="size">XXXX</text>
+<text transform="matrix(1 0 0 1 644.3926 610.6455)" fill="#750C02" class="commander">Ferdinand</text>
+<text transform="matrix(1 0 0 1 660.4736 624.1143)" fill="#750C02" class="size">(74,000)</text>
+
+<rect x="962.237" y="860.708" fill="none" stroke="#D40400" width="42" height="21"/>
+<rect x="957.552" y="846.741" fill="none" width="52.257" height="14.412"/>
+<text transform="matrix(1 0 0 1 968.498 856.3691)" fill="#D40400" class="size">XXXX</text>
+<text transform="matrix(1 0 0 1 1012.0762 876.4336)" fill="#D40400" class="commander">Charles</text>
+<text transform="matrix(1 0 0 1 1018.1572 889.9023)" fill="#D40400" class="size">(94,600)</text>
+<text transform="matrix(1 0 0 1 972.1445 902.0674)" fill="#D40400" font-size="11">Stationed in Trent</text>
+
+<rect x="330.315" y="773.417" fill="none" stroke="#D40400" width="42" height="21"/>
+<rect x="325.63" y="759.45" fill="none" width="52.257" height="14.412"/>
+<text transform="matrix(1 0 0 1 340.3467 769.0781)" fill="#D40400" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 380.1543 789.1426)" fill="#D40400" class="commander">Schwarzenberg</text>
+<text transform="matrix(1 0 0 1 424.2354 802.6113)" fill="#D40400" class="size">(12,000)</text>
+
+<rect x="521.878" y="874.046" fill="none" stroke="#9A1E12" width="42" height="21"/>
+<rect x="517.192" y="860.079" fill="none" width="52.257" height="14.412"/>
+<text transform="matrix(1 0 0 1 528.1387 869.707)" fill="#9A1E12" class="size">XXXX</text>
+<text transform="matrix(1 0 0 1 571.7168 889.7715)" fill="#9A1E12" class="commander">John</text>
+<text transform="matrix(1 0 0 1 568.7979 903.2402)" fill="#9A1E12" class="size">(22,000)</text>
+
+<rect x="496.352" y="678.371" fill="none" stroke="#EF615B" width="42" height="21"/>
+<rect x="491.666" y="664.405" fill="none" width="52.257" height="14.411"/>
+<text transform="matrix(1 0 0 1 506.3828 674.0332)" fill="#EF615B" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 546.1895 694.0967)" fill="#EF615B" class="commander">Klenau</text>
+<text transform="matrix(1 0 0 1 552.2715 707.5654)" fill="#EF615B" class="size">(14,000)</text>
+
+<rect x="903.065" y="765.041" fill="none" stroke="#EF615B" width="42" height="21"/>
+<rect x="898.38" y="751.075" fill="none" width="52.257" height="14.411"/>
+<text transform="matrix(1 0 0 1 913.0967 760.7031)" fill="#EF615B" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 952.9043 780.7666)" fill="#EF615B" class="commander">Werneck</text>
+
+<rect x="1084.332" y="860.541" fill="none" stroke="#750C02" width="42" height="21"/>
+<rect x="1079.646" y="846.575" fill="none" width="52.257" height="14.411"/>
+<text transform="matrix(1 0 0 1 1094.3633 856.2031)" fill="#750C02" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 1134.1699 876.2666)" fill="#750C02" class="commander">Hiller</text>
+<text transform="matrix(1 0 0 1 1134.252 889.7354)" fill="#750C02" class="size">(22,000)</text>
+<text transform="matrix(1 0 0 1 1089.7109 903.0674)" fill="#750C02" font-size="11">Stationed in Tyrol</text>
+
+<rect x="408.704" y="819.128" fill="none" stroke="#750C02" width="42" height="21"/>
+<rect x="404.019" y="805.162" fill="none" width="52.257" height="14.411"/>
+<text transform="matrix(1 0 0 1 418.7354 814.7891)" fill="#750C02" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 458.543 834.8535)" fill="#750C02" class="commander">Jellacic</text>
+<text transform="matrix(1 0 0 1 458.624 848.3223)" fill="#750C02" class="size">(11,000)</text>
+
+<rect x="838.825" y="848.724" fill="none" stroke="#9A1E12" width="42" height="21"/>
+<rect x="834.14" y="834.758" fill="none" width="52.257" height="14.411"/>
+<text transform="matrix(1 0 0 1 848.8564 844.3848)" fill="#9A1E12" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 888.6641 864.4492)" fill="#9A1E12" class="commander">Riesch</text>
+<text transform="matrix(1 0 0 1 891.7451 877.918)" fill="#9A1E12" class="size">(12,000)</text>
+
+<rect x="1035.579" y="509.344" fill="none" stroke="#EF615B" width="42" height="21"/>
+<rect x="1030.894" y="495.378" fill="none" width="52.257" height="14.411"/>
+<text transform="matrix(1 0 0 1 1045.6104 505.0059)" fill="#EF615B" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 1085.418 525.0693)" fill="#EF615B" class="commander">Kienmayer</text>
+<text transform="matrix(1 0 0 1 1088.499 538.5381)" fill="#EF615B" class="size">(14,600)</text>
+
+<rect x="1330.282" y="673.351" fill="none" stroke="#750C02" width="42" height="21"/>
+<rect x="1325.597" y="659.385" fill="none" width="52.257" height="14.411"/>
+<text transform="matrix(1 0 0 1 1340.3135 669.0117)" fill="#750C02" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 1380.1211 689.0762)" fill="#750C02" class="commander">Gyulai</text>
+<text transform="matrix(1 0 0 1 1386.5391 702.5449)" fill="#750C02" class="size">(8,800)</text>
+
+<rect x="843.367" y="691.84" fill="none" stroke="#750C02" width="42" height="21"/>
+<rect x="838.682" y="677.874" fill="none" width="52.257" height="14.411"/>
+<text transform="matrix(1 0 0 1 853.3984 687.502)" fill="#750C02" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 893.2051 707.5654)" fill="#750C02" class="commander">Auffenberg</text>
+
+<rect x="1062.722" y="607.655" fill="none" stroke="#D40400" width="42" height="21"/>
+<rect x="1058.036" y="593.689" fill="none" width="52.257" height="14.411"/>
+<text transform="matrix(1 0 0 1 1072.7529 603.3164)" fill="#D40400" class="size">XXX</text>
+<text transform="matrix(1 0 0 1 1112.5605 623.3809)" fill="#D40400" class="commander">Gottesheim</text>
+<text transform="matrix(1 0 0 1 1118.6416 636.8496)" fill="#D40400" class="size">(14,000)</text>
+
+<rect x="852.806" y="806.294" fill="none" stroke="#D40400" width="42" height="21"/>
+<rect x="848.12" y="792.328" fill="none" width="52.257" height="14.411"/>
+<text transform="matrix(1 0 0 1 859.0664 801.9551)" fill="#D40400" class="size">XXXX</text>
+<text transform="matrix(1 0 0 1 902.6445 822.0195)" fill="#D40400" class="commander">Mack</text>
+<text transform="matrix(1 0 0 1 902.7256 835.4883)" fill="#D40400" class="size">(30,000)</text>
+
+</svg>

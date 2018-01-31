@@ -1,0 +1,26 @@
+/* the humans responsible & colophon */
+
+/* INTERACTIVE MEDIA GROUP */
+  Director: Kirstin Hierholzer
+  Site: http://libweb.uoregon.edu/cmet/
+  Contact: kirstinh@uoregon.edu
+
+  Project Lead: David McCallum
+  Contact: mccallum@uoregon.edu
+
+  Lead Developer: William Myers
+  Contact: myersw@uoregon.edu
+
+  Lead Designer: Azle Malinao-Alvarez
+  Contact: azle@uoregon.edu
+
+  Developer: Jon Bellona
+  Site: http://deecerecords.com
+  Contact: bellona@uoregon.edu
+
+/* THANKS */
+  Names (& URL):
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery

@@ -1,0 +1,88 @@
+/**
+ * VARIABLES.LESS
+ *
+ * @version 1.0 (Specs 2012-05-18)
+ * @author Jon Bellona
+ */
+/* ----------------------------------*/
+/* ----------- LESS VARS ------------*/
+/* ----------------------------------*/
+/*Colors*/
+/*was #d5c5b7;*/
+/*Header gradient.  need to change once Dave has these gradient colors chosen*/
+/*Sizes*/
+/* this is the actual height + 10 px to allow drop shadow*/
+/*Z-indexing
+ * 0-1000 : maps
+ * 1k-2k  : map zoom controls
+ * 2k-3k  :
+ * 3k-4k  :
+ * 4k-5k  :
+ * 5k-6k  : footer
+ * 6k-7k  : map options
+ * 7k-8k  : cover wrapper #1
+ * 8k-9k  : tabs/cover wrapper #2
+ * 9k-9999: header
+ */
+/* -------------------------------*/
+/* ----------- SHAPES ------------*/
+/* -------------------------------*/.right-triangle-down {
+  width: 0;
+  height: 0;
+  border-top: 12px solid #4b1315;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  margin: 0;
+  padding: 0;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-top: 12px solid #4b1315;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  position: relative;
+  float: left;
+  top: 4px;
+  margin: 0;
+  padding: 0;
+  left: 10px;
+  cursor: pointer;
+}
+.tl-triangle-down {
+  width: 0;
+  height: 0;
+  border-top: 12px solid #4b1315;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  position: relative;
+  float: left;
+  top: 12px;
+  margin: 0;
+  padding: 0;
+  left: 8px;
+  cursor: pointer;
+}
+.triangle-right,
+.tl-triangle-right {
+  width: 0;
+  height: 0;
+  border-left: 12px solid #4b1315;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  position: relative;
+  float: left;
+  top: 7px;
+  margin: 0;
+  padding: 0;
+  left: 10px;
+  cursor: pointer;
+}
+.triangle-right {
+  top: 0px;
+  left: 14px;
+}
+/*@import "global.less";
+@import "header.less";
+@import "popover.less";
+@import "footer.less";*/

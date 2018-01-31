@@ -1,0 +1,985 @@
+/* -------------------------------*/
+/* ----------- HEADER ------------*/
+/* -------------------------------*/
+.header-slider() {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index:@z-cover2;
+}
+
+.header-slider-inner() {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 100%;
+  height: 12000px;
+  width: 100%;
+  display: none;
+  text-align: left;
+  font-size: 100%;
+  z-index:@z-cover2;
+  background: url('../images/ui_background.png') repeat;
+}
+
+#header_wrapper {
+  margin: 0 auto;
+  position: relative;
+  width: @main_width;
+  top: -10px;
+}
+
+#header {
+  -webkit-border-radius: 0px 0px 3px 3px;
+  -moz-border-radius: 0px 0px 3px 3px;
+  border-radius: 0px 0px 3px 3px;
+  margin: auto;
+  width: @main_width;
+  height: @header_height;
+/*  background: @dark_brown; /* Old browsers */
+/*  background: -moz-linear-gradient(top, @color_hdr_pri 0%, @color_hdr_sec 47%, @color_hdr_ter 100%); /* FF3.6+ */
+/*  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@color_hdr_pri), color-stop(47%,@color_hdr_sec), color-stop(100%,@color_hdr_ter)); /* Chrome,Safari4+ */
+/*  background: -webkit-linear-gradient(top, @color_hdr_pri 0%,@color_hdr_sec 47%,@color_hdr_ter 100%); /* Chrome10+,Safari5.1+ */
+/*  background: -o-linear-gradient(top, @color_hdr_pri 0%,@color_hdr_sec 47%,@color_hdr_ter 100%); /* Opera 11.10+ */
+/*  background: -ms-linear-gradient(top, @color_hdr_pri 0%,@color_hdr_sec 47%,@color_hdr_ter 100%); /* IE10+ */
+/*  background: linear-gradient(top, @color_hdr_pri 0%,@color_hdr_sec 47%,@color_hdr_ter 100%); /* W3C */
+/*  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@color_hdr_pri', endColorstr='@color_hdr_ter',GradientType=0 ); /* IE6-9 */
+  background: @dark_brown url('../images/ui_header_gradient.png') repeat-x;
+  z-index:@z-header;
+  position: absolute;
+}
+
+.shadow {
+//  -moz-box-shadow: 1px 1px 5px #666;
+//  -webkit-box-shadow: 1px 1px 5px #666;
+//  box-shadow: 1px 1px 5px #666;
+}
+
+#nav_wrapper {
+  float: left;
+  position: relative;
+  height:100%;
+  left: 25px;
+  width:@main_width - @logo_width;
+  padding-top: 10px;
+}
+
+#nav_wrapper ul {
+  padding:0;
+  margin: 2 0 0 0;
+  display:inline;
+  cursor:pointer;
+  list-style:none;
+}
+
+#nav_wrapper ul li{
+  color: @light_brown;
+  margin:0;
+  padding: 8px 12px 9px 12px;
+  top: 6px;
+  display:inline;
+  font-size: 14px;
+  position: relative;
+  border-left-style:solid;
+  border-width: 1px;
+  border-color: @maroon;
+}
+
+#nav_wrapper ul li:hover{
+  background: @dark_brown;
+  color: @dark_cream;
+}
+
+#nav_wrapper ul li:active{
+  background: @light_cream;
+  color: @dark_cream;
+}
+
+#nav_wrapper .nav-active {
+  background: @light_cream;
+  color: @dark_cream;
+}
+
+.logo {
+  background: url('../images/bg_title.png');
+  width: @logo_width;
+  height: 28px;
+  top: 13px;
+  display: inline;
+  position: relative;
+  float: left;
+}
+
+.logo:hover {
+//  background: url('../images/bg_title_over.png');
+}
+
+.nav-highlight {
+  .float-left();
+}
+  
+/* -------------------------------*/
+/* ------- GLOBAL NAV TABS -------*/
+/* -------------------------------*/
+
+#cover2-wrapper {
+  margin: 0 50%;
+  left: (@main_width / 2) * -1;
+  position: absolute;
+  width: @main_width;
+  height:100%; 
+}
+
+.slide-images,
+.slide-documents,
+.slide-narrative,
+.slide-bibliography,
+.slide-about {
+  .header-slider();
+}
+
+.slide-images .inner-images,
+.slide-documents .inner-documents,
+.slide-narrative .inner-narrative,
+.slide-bibliography .inner-bibliography,
+.slide-about .inner-about {
+  .header-slider-inner();
+}
+
+.inner-border-left {
+  border-left-color:@dark_brown;
+  border-left-style:solid;
+  border-left-width:5px;
+  border-right-color:@tan;
+  border-right-style:solid;
+  border-right-width:2px;
+  height:100%;
+  width:3px;
+  position:absolute;
+  z-index:@z-cover2 + 10;
+}
+
+.inner-border-right {
+  border-right-color:@dark_brown;
+  border-right-style:solid;
+  border-right-width:5px;
+  border-left-color:@tan;
+  border-left-style:solid;
+  border-left-width:2px;
+  height:100%;
+  width:3px;
+  position:relative;
+  z-index:@z-cover2 + 10;
+  float:right;
+}
+
+#bibliography-content, #about-content {
+  display: block;
+  width: 900px;
+  padding: 50px 16px 16px 16px;
+  color: @dark_brown;
+}
+
+#bibliography-content h2, h3, h4 {
+  color: @dark_brown;
+  text-decoration: none;
+}
+
+#bibliography-content em {
+  text-decoration: underline;
+}
+
+#bibliography-content ul {
+  margin-left: 0;
+  font-size: 14px;
+}
+
+#bibliography-content ul li {
+  list-style-type: none;
+  padding-bottom: 6px;
+}
+
+#bibliography-content p, #about-content p {
+  margin-top: 2px;
+  padding-bottom: 12px;
+}
+
+#about-content p a {
+  color: @maroon;
+  text-decoration: underline;
+}
+
+#about-content p a:hover {
+  color: @maroon;
+  text-decoration: none;
+}
+
+#filter-wrapper {
+  position:relative;
+  width:100%;
+  font-size:18px;
+  height: 44px;
+  top:12px;
+  margin-bottom:12px;
+  padding-left:12px;
+}
+
+#mapCover #filter-wrapper {
+  top:50px;
+  margin-bottom:-50px;
+}
+
+.close {
+  background: url('../images/ui_close.png');
+  display:inline-block;
+  height:32px; 
+  width:32px;
+  float: right;
+  margin-right: 10px;
+}
+
+.close {
+  background-position: 0px 0px;
+}
+
+a:hover .close {
+  background-position: 0px -32px;
+}
+
+a:active .close {
+  background-position: 0px -64px;
+}
+
+#filter-wrapper a,
+#filter-wrapper h1,
+#filter-wrapper h5,
+#filter-wrapper h6 {
+  color: @dark_brown;
+  text-decoration: none;
+  vertical-align: middle;
+  border: none;
+}
+
+#filter-wrapper a {
+  color: @maroon;
+}
+
+#filter-wrapper h5 {
+  font-size:13px;
+}
+
+#filter-wrapper h6 {
+  .margin-padding(0px);
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#filter-title {
+  .float-left();
+  margin:0;
+  padding:0 20px 0 16px;
+}
+
+#filter-wrapper p {
+  display: block;
+}
+
+#filter-wrapper img {
+ float: right;  
+}
+
+#filter-list_wrapper {
+  .float-left();
+  width: 737px;
+}
+
+#filter-list_wrapper li {
+padding: 0;
+margin: 0;
+}
+
+.filter-list {
+  .float-left();
+  padding: 0 11px;
+  margin: 0;
+  cursor: pointer;
+  height: 44px;
+}
+
+.filter-list:hover {
+  background:@light_brown;
+}
+
+.filter-border {
+  border-right-style:solid;
+  border-right-width:1px;
+  border-color: @dark_brown;
+}
+
+.segment-1 a {
+}
+
+#filter-sort {
+  font-size:11px;
+  position:relative;
+  height:30px;
+  padding-top:12px;
+  float:right;
+  padding-right:12px;
+}
+
+#filter-sort a {
+  color:@maroon;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.filter-sort_list {
+  .float-left();
+//  left:32px;
+  padding: 0 5px;
+  color:@maroon;
+}
+
+.filter-sort_list-item:hover {
+  background: @dark_cream;
+}
+
+.sort_segment-1 {
+  border-right-style:solid;
+  border-right-width:2px;
+}
+
+#galleryStyle {
+  font-size:12px;
+  padding-top:36px;
+}
+
+#galleryStyle ul {
+  list-style:none;
+}
+
+.filterElement {
+  float:left;
+  padding-right:12px;
+  padding-bottom:12px;
+  min-width: 227px;
+}
+
+.filterElement .image1,
+.filterElement .desc,
+.filterElement p{
+  float:left;
+}
+
+.filterElement .desc {
+  margin-left:12px;
+  width:130px;
+  height:85px;
+}
+
+.filterElement .desc p {
+  font-size: 110%;
+  padding-bottom: 0px;
+}
+
+.filterElement .desc p.imgTitle {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.resize2 {
+  float: left;
+  overflow: hidden;
+  width: 48%;
+}
+
+#text {
+  float: right;
+  height: 100%;
+  width: 48%;
+  overflow: auto;
+}
+
+.liStyle {
+  float: left;
+  width:3px;
+}
+
+#filter {
+
+}
+
+#filter ul {
+  padding:0;
+  margin:0;
+  display:inline;
+  cursor:pointer;
+  list-style:none;
+  color: @dark_brown;
+}
+
+#filter ul li {
+  color: @maroon;
+  margin:0;
+//  padding: 3px 5px;
+  top: 5px;
+  display:inline;
+  position: relative;
+}
+
+#narrMenu {
+  padding:0;
+  margin:0;
+  display:inline;
+  cursor:pointer;
+  list-style:none;
+}
+
+#narrMenu li {
+  font-size:16px;
+}
+
+.filter-narrative {
+  .float-left();
+  padding: 12px 12px 0px 12px;
+  margin: 0;
+  cursor: pointer;
+  height: 44px;
+}
+
+.filter-narrative img {
+  position: relative;
+  top: -28px;
+  float: right;
+}
+
+.filter-narrative:hover {
+  background:@light_brown;
+}
+
+#narrative-intros {
+  font-size:16px;
+  padding: 10px 16px;
+}
+
+#narrative-facts {
+  font-size:16px;
+  padding: 82px 46px 2em 46px;
+}
+
+#narrative-docs {
+  font-size:16px;
+  padding: 10px 16px;
+}
+
+/* ------------------------------------*/
+/* ----------- MAP OPTIONS ------------*/
+/* ------------------------------------*/
+
+#map_options_wrapper {
+  /*width:405px;*/
+  float: right;
+  position:relative;
+  right:0px;
+  .margin-padding (0);
+  z-index:@z-options;
+  top: @header_height;
+  color:@maroon;
+  height: 0px;
+}
+
+#map_options_wrapper h5{
+  color:@maroon;
+  padding: 0 0 0 10px;
+  font-size:12px;
+}
+
+#map_key{
+  width:150px; /* Overall Size of Content */
+}
+
+li.microtext{
+font-size: 12px;
+}
+
+#map_options{
+  width:150px;  /* Overall Size of Content */
+}
+
+#map_options hr{
+  margin:10px 5px;
+}
+
+.optionsOverlay{
+  float:right;
+}
+
+.hdr_context p {
+  color: @maroon;
+  cursor: pointer;
+  font-size: .9em;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-bottom: .2em;
+  text-decoration: underline;
+}
+
+.hdr_context p:hover {
+  color: @espresso;
+}
+
+.optionsOverlay ul{
+  list-style:none;
+  margin-top:.5em;
+  padding: 0 10px;
+}
+
+.optionsOverlay li{
+  z-index:@z-options+2;
+}
+
+.optionsLabel{
+    color: @maroon;
+    text-decoration: underline;
+    font-size:15px;
+    text-align:center;
+    z-index:@z-options+2;
+    width:100%;
+    cursor: pointer;
+  }
+
+.transBackground{
+  background: @off_white;
+  position:relative;
+  top:0;
+  left:0;
+  .opacity(90);
+  .border-radius-bottom-corners(3px);
+  z-index:@z-options+1;
+
+  -moz-box-shadow: 1px 1px 5px @dark_brown;
+  -webkit-box-shadow: 1px 1px 5px @dark_brown;
+  box-shadow: 1px 1px 5px @dark_brown;
+
+}
+
+  /* Size of Transparent Backgrounds */
+  /* Could not be coupled with content dynamically because of transparency bug */
+
+#map_key .transBackground{
+  width:145px;
+  height:36px;
+}
+
+#map_options .transBackground{
+  width:148px;
+  height:36px;
+}
+
+#map_key_contents{
+  z-index: @z-options+2;  
+  font-size: 14px;
+  position: absolute;
+  width: 145px;
+/*  height: 315px;*/
+  top: 0;
+  right: 0;
+}
+
+#map_options_contents{
+  z-index:@z-options+2;  
+  position:absolute;
+  width:148px;
+  height:0px; 
+  top:0;
+  left:0;
+}
+
+.map_key_items .napoleon {
+  color: #8200ad;
+}
+
+.map_key_items .french {
+  color: #0036a1;
+}
+
+.map_key_items .austrian {
+  color: #9A1E12;
+}
+
+.map_key_items .russian {
+  color:black;
+}
+
+.mapLinks.activeMap{
+  color:@espresso;
+  text-decoration:none;
+}
+
+.hdr_option2 {
+  font-size: 14px;
+}
+
+#context1, #context2, #context3, #context4 {
+  height: 500px;
+  width: 800px;
+}
+
+#context1 {
+  background: url('../images/context1.jpg');
+}
+
+#context2 {
+  background: url('../images/context2.jpg');
+}
+
+#context3 {
+  background: url('../images/context3.jpg');
+}
+
+#context4 {
+  background: url('../images/context4.jpg');
+}
+
+/* ----------------------------------*/
+/* ---------------- MAP  ------------*/
+/* ----------------------------------*/
+
+#europe,
+#french,
+#theater,
+#ulm,
+#vienna,
+#moravia,
+#auster {
+  width    : 100%;
+  height   : 100%;
+  position : absolute;
+  z-index  : @z-map;
+} 
+  
+/* ----------------------------------*/
+/* ----------- MAP COVER ------------*/
+/* ----------------------------------*/
+
+.docImg{
+  float: left;
+}      
+
+#coverWrapper{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}   
+
+#mapCover{
+  position: relative;
+  /*padding:@header_height auto;*/
+  top: 0;
+  width:@main_width;
+  height:100%;
+  min-height:675px;
+  background: #FFF;
+  background: url('../images/ui_background.png') repeat;
+  z-index:@z-cover1;
+  margin:0 auto;
+  padding:0px;
+}
+  
+#slide1 p a, #slide2 p a, #slide3 p a, #slide4 p a,
+#slide5 p a, #slide6 p a, #slide7 p a, #slide8 p a,
+#slide9 p a, #slide10 p a, #slide11 p a, #slide12 p a,
+#slide13 p a, #slide14 p a, #slide15 p a, #slide16 p a {
+  color: @maroon;
+  text-decoration: underline;
+}
+
+#slide1 p a:hover, #slide2 p a:hover, #slide3 p a:hover, #slide4 p a:hover,
+#slide5 p a:hover, #slide6 p a:hover, #slide7 p a:hover, #slide8 p a:hover,
+#slide9 p a:hover, #slide10 p a:hover, #slide11 p a:hover, #slide12 p a:hover,
+#slide13 p a:hover, #slide14 p a:hover, #slide15 p a:hover, #slide16 p a:hover {
+  text-decoration: none;
+}
+ /* */
+
+#slide1, #slide2, #slide3, #slide4,
+#slide5, #slide6, #slide7, #slide8,
+#slide9, #slide10, #slide11, #slide12,
+#slide13, #slide14, #slide15, #slide16 {
+  padding:@header_height+10 30px 0 30px;
+}
+
+#slide1 img, #slide2 img, #slide3 img, #slide4 img,
+#slide5 img, #slide6 img, #slide7 img, #slide8 img,
+#slide9 img, #slide10 img, #slide11 img, #slide12 img,
+#slide13 img, #slide14 img, #slide15 img, #slide16 img {
+  float: right;
+  border: 1px solid @dark_brown;
+  margin-bottom: 12px;
+  margin-left: 12px;
+}
+
+#slide4 #introimage, #slide6 #introimage, #slide8 #introimage {
+  border: 1px solid @dark_brown;
+  display: inline-block;
+  float: right;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  height: 230px;
+  width: 362px;
+}
+
+#slide4 #introimage {
+  background: url('../images/intro1.jpg') no-repeat;
+}
+
+#slide6 #introimage {
+  background: url('../images/intro2.jpg') no-repeat;
+}
+
+#slide8 #introimage {
+  background: url('../images/intro3.jpg') no-repeat;
+}
+
+#slide5 #introtroopsimage, #slide7 #introtroopsimage, #slide9 #introtroopsimage {
+  border: 1px solid @dark_brown;
+  margin-left: 60px;
+  height: 502px;
+  width: 793px;
+}
+
+#narrative-intros #slide6 h1, #narrative-intros #slide8 h1 {
+  margin-top: 530px;
+}
+
+#slide5 #introtroopsimage {
+  background: url('../images/ui_troop1.jpg') no-repeat;
+}
+
+#slide7 #introtroopsimage {
+  background: url('../images/ui_troop2.jpg') no-repeat;
+}
+
+#slide9 #introtroopsimage {
+  background: url('../images/ui_troop3.jpg') no-repeat;
+}
+
+#slide1 ul {
+  font-size: 14px;
+  margin: 0 0 0 0;
+  padding: 0 0 14px 12px;
+}
+
+.intro-buttons {
+  /*padding: 10px 0 0 0px;*/
+  position: absolute;
+  top: 625px;
+  left: 30px;
+  float: right;
+}
+
+.intro-buttons-left {
+  position: absolute;
+  top: 625px;
+  left: 30px;
+  float: right;
+}
+
+.nextSlide,
+.prevSlide,
+#btnSkipIntro,
+#continueBtn,
+#playNextBtn {
+  .button();
+}
+
+#continueBtn:hover,
+#btnSkipIntro:hover,
+.nextSlide:hover,
+.prevSlide:hover,
+#playNextBtn:hover {
+  .button-hover();
+}
+
+.nextSlide:active,
+.prevSlide:active,
+#btnSkipIntro:active,
+#continueBtn:active,
+#playNextBtn:active {
+  .button-active();
+}
+
+#btnSkipIntro, .prevSlide {
+  background: transparent;
+  background-color: #E4DAC7;
+
+  /*background-color: red;
+  /*background-color: red;*/
+  /*color: green;*/
+  /*background: transparent;*/
+
+  border: none;
+} 
+
+#playDiv{
+  z-index: @z-cover1 - 100;
+}
+  
+#playNext{
+  position: absolute;
+  /*left:75%;*/
+  margin-left: 350px;
+  margin-top: -10px;
+  /*bottom: 140px;*/
+  left: 0px;
+  width: 200px;
+  z-index: @z-cover1 - 100;
+}
+
+/* ----------------------------------*/
+/* -- Instructions Pages in Intro ---*/
+/* ----------------------------------*/
+
+.instructions {
+  position:relative;
+  padding-right: 35px;
+}
+
+.instructions p {
+  padding-bottom: 10px;
+}
+
+.instructions img,
+#slide5 img {
+  margin: 0 auto;
+}
+
+#instructionsimage1, #instructionsimage2 {
+  border: 1px solid @light_tan;
+  height: 502px;
+  margin-left: 38px;
+  width: 840px;
+}
+
+#instructionsimage1 {
+  background: url('../images/ui_instructions1.jpg') no-repeat;
+}
+
+#instructionsimage2 {
+  background: url('../images/ui_instructions2.jpg') no-repeat;
+}
+
+.instructions .text1, .instructions .text2, .instructions .text3, 
+.instructions .text4, .instructions .text5, .instructions .text6,
+.instructions .text7 {
+  border: 1px solid @light_tan;
+  /*background: url('../images/ui_background.png') repeat;*/
+  background-color: white;
+  padding: 6px 12px 14px 12px;
+  font-size: 90%;
+}
+
+.instructions .text1 {
+  position: absolute;
+  top: 320px; /* in conjunction with left property, decides the text position */
+  left: 75px;
+  width: 460px; /* optional, though better have one */
+  .border-radius(10px);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.instructions .text2 {
+  position: absolute;
+  top: 34px; /* in conjunction with left property, decides the text position */
+  left: 310px;
+  width: 210px; /* optional, though better have one */
+  .border-radius(10px);
+}
+
+.instructions .text3 {
+  position: absolute;
+  top: 65px; /* in conjunction with left property, decides the text position */
+  left: 574px;
+  width: 200px; /* optional, though better have one */
+  .border-radius(10px);
+}
+
+/* Second Page of Instructions */
+
+.instructions .text4 {
+  position: absolute;
+  top: 320px; /* in conjunction with left property, decides the text position */
+  left: 145px;
+  width: 260px; /* optional, though better have one */
+  .border-radius(10px);
+}
+
+.instructions .text5 {
+  position: absolute;
+  top: 270px; /* in conjunction with left property, decides the text position */
+  left: 433px;
+  width: 240px; /* optional, though better have one */
+  .border-radius(10px);
+}
+
+.instructions .text6 {
+  position: absolute;
+  top: 55px; /* in conjunction with left property, decides the text position */
+  left: 585px;
+  width: 200px; /* optional, though better have one */
+  .border-radius(10px);
+}
+
+.instructions .text7 {
+  position: absolute;
+  top: 38px; /* in conjunction with left property, decides the text position */
+  left: 345px;
+  width: 200px; /* optional, though better have one */
+  .border-radius(10px);
+}
+
+.instructions #instructionsIcons img {
+  border: none;
+  float: none;
+  padding-left: 12px;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.instructions .arrow-right {
+  /*margin: 0 auto;*/
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid @dark_brown;
+}
+
+.instructions .arrow-down {
+  /*margin: 0 auto;*/
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid @dark_brown;
+}
+
+/* ----------------------------------*/
+/* ----------- Header Tabs ----------*/
+/* ----------------------------------*/
+
+.topPadding{
+  height: @header_height;
+}
+
+.filter-active{
+  color: @maroon;
+  background-color: @light_brown;
+  background-color: #ece2d2;
+}

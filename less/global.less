@@ -1,0 +1,755 @@
+/**
+ * GLOBAL.LESS
+ *
+ * @version 1.0
+ * @author Jon Bellona
+ */
+
+
+/* --------------------------------*/
+/* ----------- WRAPPER ------------*/
+/* --------------------------------*/
+
+* {
+  .margin-padding(0);
+}
+
+html {
+/*  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+/*   http://css-tricks.com/perfect-full-page-background-image/ */
+  background: url(../images/theaterBackground.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: url('../images/bg_pattern.png') repeat;
+  font-family: 'Droid Sans', sans-serif;
+  height: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+/*  color: #222;*/
+  font-family: 'Droid Sans', sans-serif;
+  min-height:100%;
+}
+
+body {
+  .margin-padding(0);
+  background-color: @dark_brown;
+  background: url('../images/bg_pattern.png') repeat;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1em;
+//  height: auto;
+  line-height: 1.4;
+  min-height:100%;
+  width: 100%;
+}
+
+#wrapper {
+  /*margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  text-align: center;*/
+  /*min-height: 100%;
+  height: auto !important;*/ /*this gets rid of sticky footer*/
+/*  max-height: 2010px; */
+  font-family: 'Droid Sans', sans-serif;
+  height: 100%;
+  max-height: 910px; /*added quickly to pull everything togehter - better solution?*/
+  position: relative;
+  width: 100%;
+}
+
+#wrap {
+  height: 100%; 
+}
+
+body > #wrap {
+//  height: auto;
+  min-height: 100%;
+}
+
+/* -----------------------------*/
+/* ----------- MAIN ------------*/
+/* -----------------------------*/
+
+#main {
+  height:500px;
+  margin:0;
+  padding-bottom: @sticky_ftr_height; /* must be same height as the footer */
+}
+
+/* CLEAR FIX*/
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+/* End hide from IE-mac */
+
+/* --------------------------------*/
+/* ----------- SIDEBAR ------------*/
+/* --------------------------------*/
+
+#sidebar {
+  margin:0;
+}
+
+/**
+ * HTML5 Boilerplate
+ *
+ * @version   Release 3.0
+ * @uri       <http://html5boilerplate.com/>
+ */
+
+/* -------------------------------------*/
+/* ---------- HTML5 SPECIFIC -----------*/
+/* -------------------------------------*/
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  *display: inline;
+  *zoom: 1;
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+/* -----------------------------*/
+/* ---------- GLOBAL -----------*/
+/* -----------------------------*/
+
+::-moz-selection {
+  background: transparent; /*#fe57a1;*/
+  color: black;
+  text-shadow: none;
+}
+
+::selection {
+  background: transparent; /*#fe57a1;*/
+  color: black;
+  text-shadow: none;
+}
+
+/* -----------------------------------*/
+/* ---------- GLOBAL LINKS -----------*/
+/* -----------------------------------*/
+
+a {
+  color: @maroon;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: @maroon;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: @maroon;
+  text-decoration: none;
+}
+
+a:focus {
+  color: @maroon;
+  text-decoration: underline;
+  outline: thin dotted;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+  color: @maroon;
+  text-decoration: underline;
+}
+
+/* -----------------------------------------*/
+/* ---------- GLOBAL TEXT-MARKUP -----------*/
+/* -----------------------------------------*/
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+blockquote {
+  margin: 1em 40px;
+}
+
+dfn {
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid @light_brown;
+  display: block;
+  height: 1px;
+  margin: 5px 0;
+  padding: 0;
+}
+
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: ""; content: none;
+}
+
+small {
+  font-size: 85%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+h1, h2, h3, h4, p {
+  color: @dark_brown;
+  border-bottom: none;
+}
+
+p {
+  padding: 0 0 1em 0;
+  font-size: 14px;
+}
+
+/* -----------------------------------*/
+/* ---------- GLOBAL LISTS -----------*/
+/* -----------------------------------*/
+
+ul, ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+  color: @dark_brown;
+}
+
+dd {
+  margin: 0 0 0 40px;
+}
+
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+  .margin-padding (0);
+}
+
+/* ---------------------------------*/
+/* ---------- GLOBAL IMG -----------*/
+/* ---------------------------------*/
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 0;
+}
+
+/* -----------------------------------*/
+/* ---------- GLOBAL FORMS -----------*/
+/* -----------------------------------*/
+
+form {
+  margin: 0;
+}
+
+fieldset {
+  border: 0;
+  .margin-padding(0);
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+  white-space: normal;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  margin-right:5px;
+  *width: 13px;
+  *height: 13px;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0; padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+input:valid,
+textarea:valid {
+}
+
+input:invalid,
+textarea:invalid {
+  background-color: #f0dddd;
+}
+
+/* ------------------------------------*/
+/* ---------- GLOBAL TABLES -----------*/
+/* ------------------------------------*/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  vertical-align: top;
+}
+
+th {
+  font-weight: bold;
+}
+
+/* -----------------------------------------*/
+/* ---------- GLOBAL HTML5 MEDIA -----------*/
+/* -----------------------------------------*/
+
+.chromeframe {
+  background: #ccc;
+  color: black;
+  margin: 0.2em 0;
+  padding: 0.2em 0; }
+
+@media only screen and (min-width: 35em) {
+  
+}
+
+.ir {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 0;
+  display: block;
+  direction: ltr;
+  *line-height: 0;
+  overflow: hidden;
+  text-align: left;
+  text-indent: -999em;
+}
+
+.ir br {
+  display: none;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+
+/*@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow:none !important;
+    text-shadow: none !important;
+    filter:none !important;
+    -ms-filter: none !important;
+    } 
+  
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  } 
+  
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  
+  thead {
+    display: table-header-group;
+  } 
+  
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  
+  img {
+    max-width: 100% !important;
+  }
+  
+  @page {
+    margin: 0.5cm;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3; widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}*/
+
+
+/* -----------------------------------------*/
+/* ---------- OpenLayer Controls -----------*/
+/* -----------------------------------------*/
+
+.olMap :hover {
+  cursor:move;
+}
+
+.mapWrapper .olControlZoom{
+  left:50%;
+  top:40px;
+  margin-left:110px;
+  z-index:@z-controls;
+  background: white;
+  border: 2px solid #4B1315;
+  .border-radius(19px);
+}
+
+.mapWrapper .olButton{
+  font-size:28px;
+  height:24px;
+  width:28px;
+  float:left;
+  padding-top:5px;
+  background: none;
+  color: @maroon;
+}
+
+.mapWrapper .olButton:hover{
+  background: none;
+  color: #7e4d22;
+  cursor: hand;
+}
+
+.mapWrapper a.olControlZoomIn {
+  border-right: 2px solid #4B1315;
+  margin: -1px 0px 0px 4px;
+  padding: 6px 2px 6px 0;
+//  text-shadow: 0 0 0px rgba(0,0,0,0);
+  cursor: pointer;
+  
+  /*.border-radius-left-corners(15px);
+  margin: 4px 2px 4px 4px;*/
+}
+
+.mapWrapper a.olControlZoomOut {
+  cursor: pointer;
+
+  margin: 1px 4px 0px 0px;
+//  text-shadow: 0 0 0px rgba(0,0,0,0);
+  /*.border-radius-right-corners(15px);
+  margin: 4px 4px 4px 2px;*/
+}
+
+/* -----------------------------------------*/
+/* ---------- OpenLayer Icons -----------*/
+/* -----------------------------------------*/
+
+
+.battleIcon, .docIcon, .imgIcon, .factIcon {
+  background: url('../images/ui_mapIcons.png');
+  display:inline-block;
+  height:40px; 
+  width:40px;
+} 
+
+.battleIcon {
+  background-position: 0 0;
+}
+
+.battleIcon:hover  {
+  background-position: 0 -40px;
+}
+
+.battleIcon:active {
+  background-position: 0 -80px;
+}
+
+.factIcon {
+  background-position: 40px 0;
+}
+
+.factIcon:hover {
+  background-position: 40px -40px;
+}
+
+.factIcon:active {
+  background-position: 40px -80px;
+}
+
+.imgIcon {
+  background-position: 80px 1px;
+}
+
+.imgIcon:hover {
+  background-position: 80px -39px;
+}
+
+.imgIcon:active {
+  background-position: 80px -80px;
+}
+
+.docIcon {
+  background-position: 120px 0;
+}
+
+.docIcon:hover {
+  background-position: 120px -40px;
+}
+
+.docIcon:active {
+  background-position: 120px -80px;
+}
+
+.icon :hover{
+  cursor: auto;
+}
+
+/* -----------------------------------------*/
+/* ---------- Fancybox Overlays  -----------*/
+/* -----------------------------------------*/
+/* z-index changed, relates to header-tabs, with z-index of 8500 */
+.fancybox-wrap {
+  z-index: 10020 !important; 
+}
+.fancybox-opened {
+  z-index: 18730 !important;
+}
+#fancybox-loading {
+  z-index: 10020 !important;
+}
+.fancybox-close {
+  z-index: 10040 !important;
+}
+.fancybox-nav {
+  z-index: 10040 !important;
+}
+.fancybox-nav span {
+  z-index: 10040 !important;
+}
+.fancybox-overlay {
+  z-index: 10010 !important;
+}
+.fancybox-title {
+  z-index: 10050 !important;
+}
+.fancybox-title-float-wrap {
+  z-index: 10030 !important;
+}
+
+#mobilemessage {
+  background-color: @off_white;
+  color: @espresso;
+  display: none;
+  margin: 1em;
+  padding: 1em;
+}
+
+#mobilemessage p {
+  width: 18em;
+}

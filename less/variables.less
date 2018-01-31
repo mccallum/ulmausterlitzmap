@@ -1,0 +1,129 @@
+/**
+ * VARIABLES.LESS
+ *
+ * @version 1.0 (Specs 2012-05-18)
+ * @author Jon Bellona
+ */
+
+/* ----------------------------------*/
+/* ----------- LESS VARS ------------*/
+/* ----------------------------------*/
+
+/*Colors*/
+@dark_brown : #7e4d22;
+@dark_cream : #e7e1af;
+@espresso : #2c1211;
+@light_brown : #ceb893; /*#c9ae7e;*/
+@light_cream : #ac8e52;
+@light_tan : #e8cfa5;
+@maroon : #4b1315;
+@off_white : #e8cfa5; /*was #d5c5b7;*/
+@tan : #bc9C6e;
+	
+/*Header gradient.*/
+@color_hdr_pri: #7e4e23;
+@color_hdr_sec: #8a5d3b;
+@color_hdr_ter: #755540;
+
+/*Sizes*/
+@header_height: 46px; /* this is the actual height + 10 px to allow drop shadow*/
+@logo_width: 500px;
+@main_width: 980px;
+@sticky_ftr_height: 40px;
+@triangle_size: 20px;
+	
+/*Z-indexing
+ * 0-1000 : maps
+ * 1k-2k  : map zoom controls
+ * 2k-3k  :
+ * 3k-4k  :
+ * 4k-5k  :
+ * 5k-6k  : footer
+ * 6k-7k  : map options
+ * 7k-8k  : cover wrapper #1
+ * 8k-9k  : tabs/cover wrapper #2
+ * 9k-9999: header
+ */
+@z-controls:2000;
+@z-cover1: 7500;
+@z-cover2: 8500;
+@z-footer: 5500;
+@z-header: 9500;  
+@z-map:0;
+@z-options: 6500;
+
+.border-radius (@radius: 5px) {
+  border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+	
+.border-radius-top-corners (@radius: 10px) {
+	-moz-border-radius-topright: @radius;
+	border-top-right-radius: @radius;
+	-moz-border-radius-topleft: @radius;
+	border-top-left-radius: @radius;
+}
+
+.border-radius-bottom-corners (@radius: 10px) {
+  -moz-border-radius-bottomright: @radius;
+  border-bottom-right-radius: @radius;
+  -moz-border-radius-bottomleft: @radius;
+  border-bottom-left-radius: @radius;
+}
+
+.border-radius-right-corners (@radius: 10px) {
+  -moz-border-radius-topright: @radius;
+  border-top-right-radius: @radius;
+  -moz-border-radius-bottomright: @radius;
+  border-bottom-right-radius: @radius;
+}
+
+.border-radius-left-corners (@radius: 10px) {
+  -moz-border-radius-bottomleft: @radius;
+  border-bottom-left-radius: @radius;
+  -moz-border-radius-topleft: @radius;
+  border-top-left-radius: @radius;
+}
+  
+.opacity (@opacity: 100) {
+	filter: alpha(opacity=@opacity);
+	-moz-opacity: @opacity / 100;
+	-khtml-opacity: @opacity / 100;
+	opacity: @opacity / 100;
+}
+
+.margin-padding (@padding: 0px) {
+	margin: @padding;
+	padding: @padding;
+}
+	
+.float-left() {
+	position: relative;
+	float: left;
+}
+
+.button() {
+  background-color: @light_tan;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  color: @maroon;
+  padding: 10px 20px;
+  background: @dark_brown url('../images/ui_header_gradient.png') repeat-x;
+  color: @light_brown;
+  font-size: 16px;
+}
+
+.button-hover() {
+  background-color: @light_cream;
+  color: @maroon;
+  background: @dark_brown;
+  color: @dark_cream;
+}
+
+.button-active() {
+  background-color: @light_cream;
+  border: 2px solid @maroon;
+  color: @maroon;
+}

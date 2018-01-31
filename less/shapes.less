@@ -1,0 +1,60 @@
+/* -------------------------------*/
+/* ----------- SHAPES ------------*/
+/* -------------------------------*/
+
+.right-triangle-down {
+  .margin-padding (0);
+  width: 0; 
+  border-left: @triangle_size/4 solid transparent; 
+  border-right: @triangle_size/4 solid transparent;
+  border-top: @triangle_size/2 solid @maroon;
+  height: 0;
+}
+
+.triangle-down {
+  .margin-padding (0);
+  border-left: @triangle_size * (0.5*0.75) solid transparent; 
+  border-right: @triangle_size * (0.5*0.75) solid transparent;
+  border-top: @triangle_size * (0.5) solid @maroon;
+  cursor: pointer;
+  float: left;
+  height: 0;
+  left: 10px;
+  position: relative;
+  top: 4px;
+  width: 0; 
+}
+
+.tl-triangle-down {
+  .margin-padding (0);
+  border-left: @triangle_size * (0.5*0.75) solid transparent; 
+  border-right: @triangle_size * (0.5*0.75) solid transparent;
+  border-top: @triangle_size * (0.5) solid @maroon;
+  cursor: pointer;
+  float: left;
+  height: 0;
+  left: 8px;
+  position: relative;
+  top: 12px;
+  width: 0; 
+}
+
+.triangle-right, .tl-triangle-right {
+  border-bottom: @triangle_size * (0.5*0.75) solid transparent;
+  border-left: @triangle_size * (0.5) solid @maroon;
+  border-top: @triangle_size * (0.5*0.75) solid transparent;
+  cursor: pointer;
+  float: left;
+  height: 0;
+  left: 10px;
+  margin: 0 6px 0 0;
+  padding: 0;
+  position: relative;
+  top: 7px;
+  width: 0; 
+}
+
+.triangle-right{
+  left: 14px;
+  top: 1px;
+}
